@@ -19,3 +19,4 @@ commands = [
 
 name_es = 'SuperMercado Terceros'
 
+contact_es = 'Para recivir atencion al cliente por favor contactar a \n http://t.me/Dany_Valdez'

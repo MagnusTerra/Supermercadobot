@@ -3,7 +3,7 @@ from variables import *
 
 def botones_inicio():
     markup = types.ReplyKeyboardMarkup()
-    itembtna = types.KeyboardButton('Compras')
+    itembtna = types.KeyboardButton('Comprar')
     itembtnv = types.KeyboardButton('Ventas')
     itembtnc = types.KeyboardButton('Consultas')
     itembtnd = types.KeyboardButton('Ayuda <3')
