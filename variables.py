@@ -15,6 +15,7 @@ description = f'Este es un bot de adminitracion de un SuperMercado'
 commands = [
     telebot.types.BotCommand('start', 'Comando de inicio del Bot'),
     telebot.types.BotCommand('help', 'Recibe la lista de comandos del Bot'),
+    telebot.types.BotCommand('cosas', 'probar funciones')
 ]
 
 name_es = 'SuperMercado Terceros'

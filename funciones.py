@@ -4,10 +4,9 @@ from variables import *
 def botones_inicio():
     markup = types.ReplyKeyboardMarkup()
     itembtna = types.KeyboardButton('Comprar')
-    itembtnv = types.KeyboardButton('Ventas')
     itembtnc = types.KeyboardButton('Consultas')
     itembtnd = types.KeyboardButton('Ayuda <3')
-    markup.row(itembtna, itembtnv)
+    markup.row(itembtna)
     markup.row(itembtnc, itembtnd)
     return markup
 
@@ -17,8 +16,9 @@ def botones_ventas():
     itembtnv = types.KeyboardButton('op 2')
     itembtnc = types.KeyboardButton('op 3')
     itembtnd = types.KeyboardButton('op 4')
+    itenghtb = types.KeyboardButton('Realizar Compra')
     itembtnz = types.KeyboardButton('salir')
-    markup.row(itembtna, itembtnv, itembtnc, itembtnd, itembtnz)
+    markup.row(itembtna, itembtnv, itembtnc, itembtnd, itenghtb,itembtnz)
     return markup
 
 def botones_ventas1():
